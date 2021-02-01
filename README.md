@@ -1,15 +1,15 @@
 # Parallel-and-Concurrent-Programming-Project
 Team:
-Ajinkya Bokade
+Ajinkya Bokade  
 Atharva Sarage
 
 Implemented Basket Queue (Ajinkya Bokade)
 Basket Queue is a lock free linearizable highly concurrent linearizable FIFO queue. It maintains baskets
 of mixed-order items instead of standard totally ordered list. It parallelizes enqueue operations among
 different baskets by allowing different enqueue operations in different baskets to execute parallely. Nodes’
-order in baskets isn’t specified while enqueuing.
-[Basket Queue Paper](https://people.csail.mit.edu/shanir/publications/Baskets%20Queue.pdf).
-
+order in baskets isn’t specified while enqueuing.  
+[Basket Queue Paper](https://people.csail.mit.edu/shanir/publications/Baskets%20Queue.pdf).  
+  
 
 Implemented Circular Queue (Atharva Sarage)
 It is lock free linearizable concurrent FIFO queue based on the modified infinite array queue.
