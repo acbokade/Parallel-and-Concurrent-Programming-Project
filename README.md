@@ -1,4 +1,6 @@
 # Parallel-and-Concurrent-Programming-Project
+Course: Parallel & Concurrent Programming (CS5300)
+
 Team:  
 Ajinkya Bokade  
 Atharva Sarage
