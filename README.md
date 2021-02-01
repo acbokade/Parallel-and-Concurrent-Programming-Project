@@ -1,5 +1,5 @@
 # Parallel-and-Concurrent-Programming-Project
-Team:
+Team:  
 Ajinkya Bokade  
 Atharva Sarage
 
@@ -13,5 +13,5 @@ order in baskets isn’t specified while enqueuing.
 
 Implemented Circular Queue (Atharva Sarage)
 It is lock free linearizable concurrent FIFO queue based on the modified infinite array queue.
-It manages cycles differently in dequeue, making it possible toleverage a simpler atomic OR operation instead of CAS.
+It manages cycles differently in dequeue, making it possible toleverage a simpler atomic OR operation instead of CAS.  
 [Circular Queue Paper](https://drops.dagstuhl.de/opus/volltexte/2019/11335/pdf/LIPIcs-DISC-2019-28.pdf).
